@@ -1,0 +1,15 @@
+.App {
+  background: url("../img/background.jpg");
+  background-size: cover;
+  height: 100vh;
+  text-align: center;
+  width: 100vw;
+}
+
+.header {
+  background: #ffffff;
+}
+
+.title {
+  color: #ff9933;
+}
