@@ -2,17 +2,15 @@
   display: flex;
   justify-content: space-around;
   padding: 1% 0;
-  border-bottom: 1px solid maroon;
-  margin: 0 1.5rem;
+  border-bottom: 1px solid #ff9933;
 }
 .Navigation a {
   text-decoration: none;
   color: black;
-  font-family: "billyforges";
-  font-size: 1.75rem;
+  font-size: 1.5rem;
   padding: 0.25rem 1rem;
   border-radius: 10px;
 }
 .Navigation a:hover {
-  background-image: linear-gradient(to bottom, white, maroon);
+  background-image: linear-gradient(to bottom, white, #ff9933);
 }

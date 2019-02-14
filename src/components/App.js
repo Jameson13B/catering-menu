@@ -12,7 +12,9 @@ class App extends Component {
     return (
       <div className="App">
         <div className="header">
-          <h1 className="title">Atomic 10 - Food Services</h1>
+          <h1 className="title">
+            Atomic<span style={{ fontWeight: "bold" }}>10</span> Cookbook
+          </h1>
           <Navigation />
         </div>
         <Route exact path="/" component={Home} />
