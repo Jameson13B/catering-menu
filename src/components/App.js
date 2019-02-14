@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Route } from "react-router-dom";
 import Navigation from "./Navigation";
+import Home from "./Home";
 import Mains from "./Mains";
 import Sides from "./Sides";
 import Condiments from "./Condiments";
@@ -26,9 +27,5 @@ class App extends Component {
     );
   }
 }
-
-const Home = () => {
-  return <h1>Home</h1>;
-};
 
 export default App;
