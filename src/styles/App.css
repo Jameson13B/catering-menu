@@ -1,9 +1,5 @@
 .App {
-  background: url("../img/background.jpg");
-  background-size: cover;
-  height: 100vh;
   text-align: center;
-  width: 100vw;
 }
 
 .header {
@@ -16,9 +12,9 @@
 }
 
 .App .sig {
-  bottom: 0px;
+  background: #ffffff;
+  border-radius: 10%;
+  display: inline-block;
   font-size: 0.75rem;
   padding: 1rem 0 1.5rem 0;
-  position: absolute;
-  width: 100%;
 }
