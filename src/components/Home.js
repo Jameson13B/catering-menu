@@ -3,9 +3,16 @@ import "../styles/Home.css";
 
 const Home = () => {
   return (
-    <div className="Home">
+    <div
+      className="Home"
+      style={{
+        maxWidth: "595px",
+        background: "#ffffff",
+        borderRadius: "15px",
+        margin: "0 auto"
+      }}
+    >
       <h1>Home</h1>
-
       <p>
         Just make little strokes like that. Let's make some happy little clouds
         in our world. See how easy it is to create a little tree right in your

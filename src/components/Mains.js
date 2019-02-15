@@ -20,10 +20,22 @@ class Mains extends React.Component {
   }
   render() {
     return (
-      <div className="Mains">
+      <div
+        className="Mains"
+        style={{
+          maxWidth: "595px",
+          background: "#ffffff",
+          borderRadius: "15px",
+          margin: "0 auto"
+        }}
+      >
         <h1>Mains</h1>
         {this.global.mains.map(recipe => (
-          <h1>{recipe.title}</h1>
+          <div>
+            <br />
+            <h1>{recipe.title}</h1>
+            <p style={{ fontStyle: "italic" }}>{recipe.description}</p>
+          </div>
         ))}
       </div>
     );

@@ -20,10 +20,22 @@ class Sauces extends React.Component {
   }
   render() {
     return (
-      <div className="Sauces">
+      <div
+        className="Sauces"
+        style={{
+          maxWidth: "595px",
+          background: "#ffffff",
+          borderRadius: "15px",
+          margin: "0 auto"
+        }}
+      >
         <h1>Sauces</h1>
         {this.global.sauces.map(recipe => (
-          <h1>{recipe.title}</h1>
+          <div>
+            <br />
+            <h1>{recipe.title}</h1>
+            <p style={{ fontStyle: "italic" }}>{recipe.description}</p>
+          </div>
         ))}
       </div>
     );
