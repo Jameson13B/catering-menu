@@ -14,3 +14,11 @@
   color: #ff9933;
   font-size: 2rem;
 }
+
+.App .sig {
+  bottom: 0px;
+  font-size: 0.75rem;
+  padding: 1rem 0 1.5rem 0;
+  position: absolute;
+  width: 100%;
+}

@@ -22,6 +22,12 @@ const App = () => {
       <Route path="/sides" component={Sides} />
       <Route path="/sauces" component={Sauces} />
       <Route path="/contact" component={Contact} />
+      <p className="sig">
+        Website by{" "}
+        <a href="https://jamesonb.com/" target="_blanks">
+          Jameson Brown
+        </a>
+      </p>
     </div>
   );
 };
