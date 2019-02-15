@@ -1,17 +1,11 @@
-import React, { Component } from "react";
+import React from "reactn";
 
-class Sides extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {};
-  }
-  render() {
-    return (
-      <div className="Sides">
-        <h1>Sides</h1>
-      </div>
-    );
-  }
-}
+const Sides = () => {
+  return (
+    <div className="Sides">
+      <h1>Sides</h1>
+    </div>
+  );
+};
 
 export default Sides;

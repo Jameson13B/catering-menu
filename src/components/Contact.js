@@ -1,17 +1,11 @@
-import React, { Component } from "react";
+import React from "reactn";
 
-class Contact extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {};
-  }
-  render() {
-    return (
-      <div className="Contact">
-        <h1>Contact</h1>
-      </div>
-    );
-  }
-}
+const Contact = () => {
+  return (
+    <div className="Contact">
+      <h1>Contact</h1>
+    </div>
+  );
+};
 
 export default Contact;
